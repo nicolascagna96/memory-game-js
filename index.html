@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Memory Game</title>
+</head>
+<body>
+
+    <div class="controls">
+        <button id="start-btn" class="start-btn btn">Play!</button>
+    </div>
+
+<p class="live_count hide">Lives Left: <span class="playerLivesCount"></span> </p>
+<section class="hide"></section>
+
+<div id="end-game">
+  <div id="endScreenContent">
+    <h1 id="endMessage">You Win, You lose</h1>
+    <div id="replayBtn" class="button" onclick="replay()">Play again!</div>
+    <div id="quitBtn" class="button" onclick="quitGame()">Quit game</div>
+
+  </div>
+</div>
+
+ <footer class="page-footer">
+  <div>
+<a href="https://github.com/nicolascagna96" target="_blank" alt="Link to my Github Repository"><i class="fab fa-github"></i></a>
+<p>Nicolas Cagna 2022</p>
+  </div>
+</footer>
+
+    <!-- font awesome script -->
+    <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+
+</html>
