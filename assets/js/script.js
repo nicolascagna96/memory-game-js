@@ -60,3 +60,43 @@ cardData.forEach((item, index) => {
     });
 };
 
+//Checking Cards
+const checkCards = (e) => {
+    console.log(e);
+    const clickedCard = e.target;
+    const flippedCards = document.querySelectorAll('.flipped');
+    const toggleCard = document.querySelectorAll(".toggleCard");
+    clickedCard.classList.add('flipped');
+
+
+    //Logic
+    
+    if (flippedCards.length === 2){
+        if(
+            flippedCards[0].getAttribute("name") === 
+            flippedCards[1].getAttribute("name")
+        ) {
+            console.log('match');
+            flippedCards.forEach((card) => {
+             card.classList.remove('flipped');
+             card.style.pointerEvents="none";   
+            });
+        } else {
+            console.log('wrong');
+            flippedCards.forEach((card) => {
+                card.classList.remove('flipped');
+                card.classList.remove('toggleCard');
+                setTimeout(() => card.classList.remove('toggleCard'), 1000)
+            });
+            playerLives--;
+            playerLivesCount.textContent = playerLives;
+            if(playerLives === 0) {
+                restart("You lost!");
+            }
+        }
+    }
+
+    if(toggleCard.length === 16){
+        restart("You win!");
+    }
+};
