@@ -100,3 +100,38 @@ const checkCards = (e) => {
         restart("You win!");
     }
 };
+
+/Restart the Game
+const restart = (text) => {
+    let cardData = randomize();
+    let faces = document.querySelectorAll(".face");
+    let cards = document.querySelectorAll(".card");
+    section.style.pointerEvents = "none";
+    cardData.forEach((item,index) => {
+        cards[index].classList.remove('toggleCard');
+
+       setTimeout(() => {
+        cards[index].style.pointerEvents = 'all';
+        faces[index].src = item.imgSrc;
+        cards[index].setAttribute('name', item.name);
+        section.stylepointerEvents = 'all';
+       }, 1000);
+
+    });
+
+    playerLives = 15;
+    playerLivesCount.textContent = playerLives;
+    setTimeout(() => window.alert(text), 1000);
+};
+
+ cardGenerator();
+
+ const startButton = document.getElementById('start-btn')
+ startButton.addEventListener('click', startGame)
+
+ function startGame() {
+    startButton.classList.add('hide');
+    section.classList.remove('hide');
+    hide.classList.remove('hide');
+    
+  }
