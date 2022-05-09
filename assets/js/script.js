@@ -101,7 +101,7 @@ const checkCards = (e) => {
     }
 };
 
-/Restart the Game
+//Restart the Game
 const restart = (text) => {
     let cardData = randomize();
     let faces = document.querySelectorAll(".face");
@@ -125,6 +125,8 @@ const restart = (text) => {
 };
 
  cardGenerator();
+
+ //start button
 
  const startButton = document.getElementById('start-btn')
  startButton.addEventListener('click', startGame)
