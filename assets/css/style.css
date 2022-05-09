@@ -15,4 +15,30 @@
   flex-direction: column;
   width: 100vw;
   }
+
+  /* start button*/
+.btn {
+  border: 1px solid hsl(var(--hue), 100%, 30%);
+  background-color:rgb(102, 17, 158);
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: white;
+  outline: none;
+  font-size: 5rem;
+}
+
+.btn:hover{
+    background-color:rgb(7, 117, 214);
+    cursor: pointer; 
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide{
+    display: none;
+}
   
