@@ -8,25 +8,23 @@ This project is a quick game who has the aim to keep the users entertained but a
 # Table of Content
 
 1. [UX](#Ux)
-   - User Stories](#user stories)
-   - [User Goals](#user goals)
+   - [User Stories](#user-stories)
+   - [User Goals](#user-goals)
    - [Requirements](#requirements)
 3. [Features](#features)
-   - Existing Features
-   - Start screen
-   - Game Screen
-   - Features to Implement
-   4. [Technologies used](#technologies used)
-   -  Language Used
-   - Frameworks, Libraries & Programs Used
+   - [Existing Features](#existing-features)
+   - [Start screen](#start-screen)
+   - [Game Screen](#game-screen)
+   - [Features to Implement](#features-left-to-implement)
+   4. [Technologies used](#technologies-used)
+   - [Language Used](#language-used)
+   - [Frameworks, Libraries & Tools](#libraries-framework--tools)
  5. [Testing](#testing)
-   -   Validator Testing
-   - Unfixed Bugs
-   - Further Testing
+   - [Validator Testing](#w3c-html-validation)
+   - [Further Testing](#further-testing)
  6. [ Deployment](#deployment)
  7. [Credits](#credits)
-    - Content
-    - Media
+    - [Content](#content-for-code-and-design-ideas)
 
 # UX <a name="Ux"></a>
 ## User Stories 
@@ -91,3 +89,33 @@ Inside the game screen we can find three elements:
 # Testing
 ## W3C HTML Validation
 
+![picture alt](/assets/images/html-validator.PNG "HTML validator")
+
+## W3C CSS Validator
+
+![picture alt](/assets/images/css-validator.PNG "Css Validator")
+
+## JSHint Testing
+
+![picture alt](/assets/images/js-validator.PNG "JavaScript Validator")
+
+## Accessibility
+![picture alt](/assets/images/accessibility.PNG "Accessibility")
+
+## Further Testing
+- I tested the all the screens works in different browsers: Chrome, Safari and Safari.
+- I confirmed that this project is responsive, looks good and works on all standard screens using the devtools device toolbar.
+
+# Deployment
+- The site was deployed to GitHub pages. The steps to deploy are as follows:
+   - In the GitHub repository, navigate to the Settings tab
+   - From the source section drop-down menu, select the Master Branch
+   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+   # Credits
+
+   ## Content (For code and design ideas) 
+
+- [DevelopmentByEd](https://developedbyed.com/ "Named link title") I found his tutorial on Youtube really helpful, especially in creating the design of my game,
+- [Dev Ed GitHub repository](https://github.com/developedbyed/ "Dev Ed GitHub repository") I checked also Ed Repository to get inspiration with the code.
+- [Build a Memory Card game]( "https://www.codingnepalweb.com/build-memory-card-game-html-javascript/") I found inspiration for the JavaScript code and I got the cards images from this website.
