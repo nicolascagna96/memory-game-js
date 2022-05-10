@@ -56,13 +56,12 @@ cardData.forEach((item, index) => {
         card.classList.toggle('toggleCard');
         checkCards(e);
 
-        })
+        });
     });
 };
 
 //Checking Cards
 const checkCards = (e) => {
-    console.log(e);
     const clickedCard = e.target;
     const flippedCards = document.querySelectorAll('.flipped');
     const toggleCard = document.querySelectorAll(".toggleCard");
@@ -76,17 +75,15 @@ const checkCards = (e) => {
             flippedCards[0].getAttribute("name") === 
             flippedCards[1].getAttribute("name")
         ) {
-            console.log('match');
             flippedCards.forEach((card) => {
              card.classList.remove('flipped');
              card.style.pointerEvents="none";   
             });
         } else {
-            console.log('wrong');
             flippedCards.forEach((card) => {
                 card.classList.remove('flipped');
                 card.classList.remove('toggleCard');
-                setTimeout(() => card.classList.remove('toggleCard'), 1000)
+                setTimeout(() => card.classList.remove('toggleCard'), 1000);
             });
             playerLives--;
             playerLivesCount.textContent = playerLives;
@@ -128,8 +125,8 @@ const restart = (text) => {
 
  //start button
 
- const startButton = document.getElementById('start-btn')
- startButton.addEventListener('click', startGame)
+ const startButton = document.getElementById('start-btn');
+ startButton.addEventListener('click', startGame);
 
  function startGame() {
     startButton.classList.add('hide');

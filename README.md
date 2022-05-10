@@ -11,22 +11,22 @@ This project is a quick game who has the aim to keep the users entertained but a
    - [User Stories](#user-stories)
    - [User Goals](#user-goals)
    - [Requirements](#requirements)
-3. [Features](#features)
+2. [Features](#features)
    - [Existing Features](#existing-features)
    - [Start screen](#start-screen)
    - [Game Screen](#game-screen)
    - [Features to Implement](#features-left-to-implement)
-   4. [Technologies used](#technologies-used)
+3. [Technologies used](#technologies-used)
    - [Language Used](#language-used)
    - [Frameworks, Libraries & Tools](#libraries-framework--tools)
- 5. [Testing](#testing)
+4. [Testing](#testing)
    - [Validator Testing](#w3c-html-validation)
    - [Further Testing](#further-testing)
- 6. [ Deployment](#deployment)
- 7. [Credits](#credits)
+5. [ Deployment](#deployment)
+6. [Credits](#credits)
     - [Content](#content-for-code-and-design-ideas)
 
-# UX <a name="Ux"></a>
+# UX 
 ## User Stories 
 - The user wants to have fun and enjoy when playing this game.
 - The users want to win the game.
