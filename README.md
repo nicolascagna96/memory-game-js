@@ -24,7 +24,7 @@ This project is a quick game who has the aim to keep the users entertained but a
    - [Further Testing](#further-testing)
 5. [ Deployment](#deployment)
 6. [Credits](#credits)
-    - [Content](#content-for-code-and-design-ideas)
+  
 
 # UX 
 ## User Stories 
@@ -32,15 +32,14 @@ This project is a quick game who has the aim to keep the users entertained but a
 - The users want to win the game.
 - The users want to win the game using a lover number of lives.
 ## User Goals 
-## Requirements 
-
-## Features
+- In order to win the game the user needs to find all the pair of cards before that the lives end.
+ ## Features
 - Responsive in all devices.
 - Interactive elements.
 - Start Screen.
 - Game Screen.
 
-This memory game is a linear game and when the player presses start the game board is created and shuffled. At the end of the game the user will get an allert message saying either "Win" or "Loss.
+This memory game is a linear game and when the player presses start the game board is created and shuffled. At the end of the game the user will get an allert message saying either "Win" or "Loss" and the game will automatically restart.
 ## Existing features
 
 ### Start Screen
@@ -66,8 +65,6 @@ Inside the game screen we can find three elements:
 
 ## Features Left to Implement 
 - I plan to add a screen after the "start button" with the rules of the game.
-- Leaderboard, this will allow users to see their best scores.
-- Future version of the game will contain two game modes: easy and difficult. 
 - Planning to add an End Game screen to show the Win or Loss message instead of having an alert window like now.
 
 # Technologies Used
@@ -117,5 +114,9 @@ Inside the game screen we can find three elements:
    ## Content (For code and design ideas) 
 
 - [DevelopmentByEd](https://developedbyed.com/ "Named link title") I found his tutorial on Youtube really helpful, especially in creating the design of my game,
-- [Dev Ed GitHub repository](https://github.com/developedbyed/ "Dev Ed GitHub repository") I checked also Ed Repository to get inspiration with the code.
-- [Build a Memory Card game]( "https://www.codingnepalweb.com/build-memory-card-game-html-javascript/") I found inspiration for the JavaScript code and I got the cards images from this website.
+- [Dev Ed GitHub repository](https://github.com/developedbyed/ "Dev Ed GitHub repository") I checked also Ed Repository and his memory game to check his code.
+- [Cosing Nepal Memory Quiz](https://www.codingnepalweb.com/build-memory-card-game-html-javascript/ "Coding Nepal") I used the images provided from Coding Nepal for my project.
+- [EventTarget.addEventListener()](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener "MDN") It helped me to understand the Event Listeners.
+
+## Acknowledgment
+- Martina Terlevic. A big thanks to my mentor who helps me a lot with this project!
