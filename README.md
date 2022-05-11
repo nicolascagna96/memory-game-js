@@ -29,15 +29,16 @@ This project is a quick game who has the aim to keep the users entertained but a
 # UX 
 ## User Stories 
 - The user wants to have fun and enjoy when playing this game.
-- The users want to win the game.
-- The users want to win the game using a lover number of lives.
+- The user wants to win the game.
+- The user wants to win the game using a lover number of lives.
 ## User Goals 
-- In order to win the game the user needs to find all the pair of cards before that the lives end.
+- In order to win the game the user needs to collect all the pairs of cards before that the lives end.
  ## Features
 - Responsive in all devices.
 - Interactive elements.
 - Start Screen.
 - Game Screen.
+- End game alert.
 
 This memory game is a linear game and when the player presses start the game board is created and shuffled. At the end of the game the user will get an allert message saying either "Win" or "Loss" and the game will automatically restart.
 ## Existing features
