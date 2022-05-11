@@ -134,7 +134,7 @@
   
   @media screen  and (max-width:410px) {
   
-    .face, .back {
+   section {
       clear: both;
       grid-template-rows: repeat(4, 4rem);
     grid-template-columns: repeat(4, 4rem);
@@ -149,7 +149,7 @@
   
   @media screen  and (max-width:320px) {
   
-    .face, .back {
+    section {
       clear: both;
       grid-template-rows: repeat(4, 4rem);
     grid-template-columns: repeat(4, 4rem);
@@ -164,7 +164,7 @@
   
   @media only screen and (min-width: 412px) and (max-width: 767px) {
   
-    .face, .back {
+    section {
       clear: both;
       grid-template-rows: repeat(4, 3rem);
     grid-template-columns: repeat(4, 3rem);
