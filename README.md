@@ -64,11 +64,11 @@ Inside the game screen we can find three elements:
  
 ![picture alt](/assets/images/game-screen.PNG "Game screen")
 
-## Features Left to Implement
+## Features Left to Implement 
 - I plan to add a screen after the "start button" with the rules of the game.
 - Leaderboard, this will allow users to see their best scores.
 - Future version of the game will contain two game modes: easy and difficult. 
-- Planning to add an End Game screen to show the Win or Loss message.
+- Planning to add an End Game screen to show the Win or Loss message instead of having an alert window like now.
 
 # Technologies Used
 
@@ -103,7 +103,7 @@ Inside the game screen we can find three elements:
 ![picture alt](/assets/images/accessibility.PNG "Accessibility")
 
 ## Further Testing
-- I tested the all the screens works in different browsers: Chrome, Safari and Safari.
+- I tested the all the screens works in different browsers: Chrome, Safari, Firefox and Edge.
 - I confirmed that this project is responsive, looks good and works on all standard screens using the devtools device toolbar.
 
 # Deployment
