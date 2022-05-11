@@ -111,7 +111,7 @@ Inside the game screen we can find three elements:
 
    # Credits
 
-   ## Content (For code and design ideas) 
+   ## Content  
 
 - [DevelopmentByEd](https://developedbyed.com/ "Named link title") I found his tutorial on Youtube really helpful, especially in creating the design of my game,
 - [Dev Ed GitHub repository](https://github.com/developedbyed/ "Dev Ed GitHub repository") I checked also Ed Repository and his memory game to check his code.
