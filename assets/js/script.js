@@ -88,13 +88,13 @@ const checkCards = (e) => {
             playerLives--;
             playerLivesCount.textContent = playerLives;
             if(playerLives === 0) {
-                restart("You lost!");
+                restart("You've lost! Try Again!");
             }
         }
     }
 
     if(toggleCard.length === 16){
-        restart("You win!");
+        restart("Congratulations! You have won!");
     }
 };
 
