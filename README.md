@@ -71,18 +71,18 @@ Inside the game screen we can find three elements:
 # Technologies Used
 
 ## Language Used
-- HTML5
-- CSS3
-- JavaScript
+- [HTML5](https://en.wikipedia.org/wiki/HTML5 "HTML5")
+- [CSS3](https://en.wikipedia.org/wiki/CSS "CSS")
+- [JavaScript](https://en.wikipedia.org/wiki/JavaScript "JavaScript")
 
 ## Libraries, Framework & Tools
-- Font Awsome Library
-- Google Fonts
-- GitHub
-- Gitpod
-- W3C HTML Validation Service
-- W3C CSS Validation Service
-- JSHint
+- [Font Awsome Library](https://fontawesome.com/account "Font Awsome")
+- [Google Fonts](https://fonts.google.com/ "google fonts")
+- [GitHub](https://github.com/ "GitHub")
+- [Gitpod](https://gitpod.io/workspaces "Gitpod")
+- [W3C HTML Validation Service](https://validator.w3.org/#validate_by_input "HTML Validator")
+- [W3C CSS Validation Service](https://validator.w3.org/#validate_by_input "CSS Validator")
+- [JSHint](https://jshint.com/ "JSHint")
 
 # Testing
 ## W3C HTML Validation
@@ -114,10 +114,10 @@ Inside the game screen we can find three elements:
 
    ## Content  
 
-- [DevelopmentByEd](https://developedbyed.com/ "Named link title") I found his tutorial on Youtube really helpful, especially in creating the design of my game,
+- [DevelopmentByEd](https://developedbyed.com/ "Development by Ed") I found his tutorial on Youtube really helpful, especially in creating the design of my game,
 - [Dev Ed GitHub repository](https://github.com/developedbyed/ "Dev Ed GitHub repository") I checked also Ed Repository and his memory game to check his code.
 - [Cosing Nepal Memory Quiz](https://www.codingnepalweb.com/build-memory-card-game-html-javascript/ "Coding Nepal") I used the images provided from Coding Nepal for my project.
 - [EventTarget.addEventListener()](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget/addEventListener "MDN") It helped me to understand the Event Listeners.
 
 ## Acknowledgment
-- Martina Terlevic. A big thanks to my mentor who helps me a lot with this project!
+- Martina Terlevic. A big thank you to my mentor Martina, who helps me a lot with this project!

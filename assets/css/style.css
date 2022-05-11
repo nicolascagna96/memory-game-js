@@ -8,7 +8,7 @@
   
   }
   
-  body {
+body {
   background: rgb(63,94,251);
   background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
   display: flex;
@@ -56,17 +56,17 @@
  
 }
 
-  section {
+ section {
       display: grid;
-      grid-template-rows: repeat(4, 5rem);
-      grid-template-columns: repeat(4, 5rem);
+      grid-template-rows: repeat(4, 5.5rem);
+      grid-template-columns: repeat(4, 5.5rem);
       perspective: 1000px;
       grid-gap: 1.5rem;
       margin-bottom: 20rem;
     
   }
   
-  .card{
+.card{
     position:relative;
     transform-style: preserve-3d;
     transition: all 2.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -115,7 +115,7 @@
 }
 
 /* media screen */
-
+  
 @media screen  and (max-width:600px) {
 
   section {
@@ -135,8 +135,8 @@
   @media screen  and (max-width:410px) {
   
    section {
-      clear: both;
-      grid-template-rows: repeat(4, 4rem);
+    clear: both;
+    grid-template-rows: repeat(4, 4rem);
     grid-template-columns: repeat(4, 4rem);
     grid-gap: 1rem;
     height: auto;
@@ -150,8 +150,8 @@
   @media screen  and (max-width:320px) {
   
     section {
-      clear: both;
-      grid-template-rows: repeat(4, 4rem);
+    clear: both;
+    grid-template-rows: repeat(4, 4rem);
     grid-template-columns: repeat(4, 4rem);
     grid-gap: 0.5rem;
     height: auto;
@@ -165,8 +165,8 @@
   @media only screen and (min-width: 412px) and (max-width: 767px) {
   
     section {
-      clear: both;
-      grid-template-rows: repeat(4, 3rem);
+    clear: both;
+    grid-template-rows: repeat(4, 3rem);
     grid-template-columns: repeat(4, 3rem);
     grid-gap: 1rem;
     height: auto;

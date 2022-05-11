@@ -5,7 +5,7 @@ const hide = document.querySelector('.hide');
 
 playerLivesCount.textContent = playerLives;
 
-//Generate the data
+//Generate the data 
 const getData = () => [
     { imgSrc: "assets/images/img-1.png", name: "card1"},
     { imgSrc: "assets/images/img-2.png", name:"card2"},
@@ -70,32 +70,32 @@ const checkCards = (e) => {
 
     //Logic
     
-    if (flippedCards.length === 2){
-        if(
-            flippedCards[0].getAttribute("name") === 
-            flippedCards[1].getAttribute("name")
+if (flippedCards.length === 2){
+    if(
+             flippedCards[0].getAttribute("name") === 
+             flippedCards[1].getAttribute("name")
         ) {
-            flippedCards.forEach((card) => {
+             flippedCards.forEach((card) => {
              card.classList.remove('flipped');
              card.style.pointerEvents="none";   
             });
-        } else {
+    } else {
             flippedCards.forEach((card) => {
-                card.classList.remove('flipped');
-                card.classList.remove('toggleCard');
-                setTimeout(() => card.classList.remove('toggleCard'), 1000);
+            card.classList.remove('flipped');
+            card.classList.remove('toggleCard');
+            setTimeout(() => card.classList.remove('toggleCard'), 1000);
             });
             playerLives--;
             playerLivesCount.textContent = playerLives;
             if(playerLives === 0) {
                 restart("You've lost! Try Again!");
-            }
-        }
-    }
+            };
+        };
+    };
 
     if(toggleCard.length === 16){
         restart("Congratulations! You have won!");
-    }
+    };
 };
 
 //Restart the Game
@@ -107,11 +107,11 @@ const restart = (text) => {
     cardData.forEach((item,index) => {
         cards[index].classList.remove('toggleCard');
 
-       setTimeout(() => {
-        cards[index].style.pointerEvents = 'all';
-        faces[index].src = item.imgSrc;
-        cards[index].setAttribute('name', item.name);
-        section.stylepointerEvents = 'all';
+    setTimeout(() => {
+    cards[index].style.pointerEvents = 'all';
+    faces[index].src = item.imgSrc;
+    cards[index].setAttribute('name', item.name);
+    section.stylepointerEvents = 'all';
        }, 1000);
 
     });
@@ -133,4 +133,4 @@ const restart = (text) => {
     section.classList.remove('hide');
     hide.classList.remove('hide');
     
-  }
+  };
